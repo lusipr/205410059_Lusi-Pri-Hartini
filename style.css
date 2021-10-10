@@ -1,0 +1,174 @@
+body {
+  background: #f5f5f5;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+  color: #333; }
+
+  h1{
+      text-align: center;
+    }
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  display: flex; }
+
+.header {
+  background: #fff; }
+  .header .logo {
+    flex-basis: 20%;
+    padding: 12px 0; }
+    .header .logo h1 {
+      margin: 0;
+      font-size: 1.5em; }
+      .header .logo h1 a {
+        text-decoration: none;
+        color: #333; }
+      .header .logo h1 span {
+        font-weight: 300; }
+  .header .menu {
+    flex-basis: 80%; }
+    .header .menu ul {
+      float: right;
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .header .menu ul li {
+        float: left; }
+        .header .menu ul li a {
+          display: block;
+          padding: 20px;
+          font-size: 14px;
+          text-decoration: none;
+          color: #333;
+          transition: 0.5ms;
+          border-bottom: 3px solid white; }
+          .header .menu ul li a:hover {
+            background: red;
+            color: #fff;
+            border-color: #950606; }
+
+.hero {
+  background: #fff;
+  padding: 5% 0 3%; }
+  .hero-text {
+    flex-basis: 50%; }
+    .hero-text h2 {
+      font-size: 2.5em; }
+    .hero-text p {
+      line-height: 25px;
+      font-size: 14px;
+      font-weight: 300; }
+    .hero-text a {
+      display: inline-block;
+      background: red;
+      color: #fff;
+      text-decoration: none;
+      padding: 20px 40px;
+      border-radius: 10px;
+      font-size: 14px;
+      border-bottom: 3px solid #b30505;
+      margin-top: 20px; }
+  .hero-image {
+    flex-basis: 50%; }
+    .hero-image img {
+      width: 100%; }
+
+.catalog {
+  padding: 5% 0; }
+  .catalog-item {
+    background: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: -1px 1px 16px 3px #e2e2e2;
+    flex-basis: 20%; }
+    .catalog-item .desc {
+      padding: 20px; }
+      .catalog-item .desc .title h5 {
+        margin: 5px 0 10px;
+        color: #555; }
+      .catalog-item .desc .price {
+        font-size: 13px;
+        font-weight: 600;
+        color: #ec9633; }
+    .catalog-item img {
+      height: 150px; }
+
+.footer {
+  background: #333;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 300; }
+
+.active {
+  background-color: #4CAF50;
+}
+.container{
+  font-size: 20px;
+  padding: 20px 10px;
+}
+table{
+      background: transparent;
+      margin:auto;
+      color: black;
+      width: 80%;
+    }
+    .awal{
+        width: 500px;
+        text-align: center;
+        box-shadow: 0 0 3px rgba(0,0,0,.5);
+        border-radius: 15px;
+        padding: 15px auto;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .awal img{
+        width: 150px;
+    }
+
+
+    .awal:hover{
+        box-shadow: 0 0 7px rgba(0,0,0,.5);
+        transition: .3s;
+    }
+
+    .awal button{
+        padding: 10px 15px;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        background-color: blue;
+        color: white;
+        letter-spacing: 1px;
+    }
+    .awal button:hover{
+      background-color: white;
+    }
+
+    .awal h1, .awal img, .awal h4{
+        margin-bottom: 25px;
+    }
+    @media only screen and (max-width: 720px){
+      body{
+        background-color: #AFEEEE;
+      }
+      table{
+        width: 100%;
+      }
+      h1{
+        text-align: center;
+        background-color: purple;
+        color: white;
+        width: 100%;
+        margin: auto;
+      }
+      td{
+        padding: 10px;
+      }
+    }
